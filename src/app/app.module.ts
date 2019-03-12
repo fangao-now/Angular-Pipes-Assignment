@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ReversePipe } from './pipes/reverse.pipe';
+import { SortPipe } from './pipes/sort.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ReversePipe
+    ReversePipe,
+    SortPipe
   ],
   imports: [
     BrowserModule,
